@@ -93,7 +93,7 @@ const Contact = () => {
                 height="100%"
                 style={{ border: 0 }}
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121360.08319143474!2d73.8107427!3d18.5240431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2efd3777d7c1d%3A0x7e6a97d8a8d8a8a8!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1234567890123"
-                allowFullScreen=""
+                allowFullScreen={true}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
@@ -113,7 +113,7 @@ const Contact = () => {
               className="inline-flex items-center bg-red-600 text-white px-6 py-3 rounded-full hover:bg-red-700 transition-colors duration-200 font-semibold"
             >
               <Phone className="w-5 h-5 mr-2" />
-              Emergency: 108
+              Emergency: +91 7499474733
             </a>
             <a
               href="tel:102"
