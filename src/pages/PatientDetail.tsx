@@ -2,27 +2,71 @@ import { useParams } from "react-router-dom";
 
 const patients = [
   {
-    id: "aarav",
-    image: "https://images.pexels.com/photos/3807497/pexels-photo-3807497.jpeg",
-    name: "Aarav",
-    age: 7,
-    location: "Pune",
-    condition: "Heart Surgery",
-    estimatedCost: "₹3,50,000",
-    details:
-      "Aarav was diagnosed with a congenital heart defect at birth. Doctors recommend immediate corrective surgery. His family cannot afford the treatment.",
-  },
-  {
-    id: "meera",
-    image: "https://images.pexels.com/photos/3825517/pexels-photo-3825517.jpeg",
-    name: "Meera",
-    age: 9,
-    location: "Nashik",
-    condition: "Bone Marrow Treatment",
-    estimatedCost: "₹5,00,000",
-    details:
-      "Meera requires an urgent bone marrow transplant. The treatment is expensive and time-sensitive.",
-  },
+      id: "aarav",
+      image:
+        "https://picsum.photos/id/1027/600/400",
+      name: "Aarav",
+      age: 7,
+      location: "Pune",
+      condition: "Heart Surgery",
+      estimatedCost: "₹3,50,000",
+      story:
+        "Aarav is a bright 7-year-old from Pune with a congenital heart defect.",
+      details:
+        "Aarav was born with a congenital heart defect that has been causing him severe health issues. Despite his young age, he has shown incredible resilience and spirit. His parents have been struggling to afford the necessary surgery, which is estimated to cost ₹3,50,000. Aarav's condition requires urgent attention, and with the right medical care, he has a good chance of leading a healthy life. Your support can make a life-changing difference for Aarav and his family."
+    },
+    {
+      id: "meera",
+      image:
+        "https://picsum.photos/id/1005/600/400",
+      name: "Meera",
+      age: 9,
+      location: "Nashik",
+      condition: "Bone Marrow Treatment",
+      estimatedCost: "₹5,00,000",
+      story:
+        "Nine-year-old Meera from Nashik is battling a serious blood disorder.",
+        details:"Meera was diagnosed with a severe blood disorder that has left her weak and in constant need of medical care. Her family has been doing everything they can to support her, but the cost of bone marrow treatment is overwhelming. The estimated cost for Meera's treatment is ₹5,00,000, which is beyond the reach of her family. With your help, Meera can receive the life-saving treatment she needs to fight this disease and regain her health."
+    },
+    {
+      id: "rohan",
+      image:
+        "https://picsum.photos/id/1011/600/400",
+      name: "Rohan",
+      age: 5,
+      location: "Aurangabad",
+      condition: "Kidney Surgery",
+      estimatedCost: "₹2,75,000",
+      story:
+        "Five-year-old Rohan needs kidney surgery to lead a normal life.",
+        details:"Rohan has been suffering from a severe kidney condition that has been affecting his quality of life. He requires urgent kidney surgery to prevent further complications and to allow him to lead a normal, healthy life. The estimated cost for Rohan's surgery is ₹2,75,000, which is a significant financial burden for his family. Your support can help Rohan get the medical care he needs and give him a chance at a brighter future."
+    },
+    {
+      id: "saniya",
+      image:
+        "https://picsum.photos/id/1007/600/400",
+      name: "Saniya",
+      age: 11,
+      location: "Mumbai",
+      condition: "Spinal Treatment",
+      estimatedCost: "₹4,25,000",
+      story:
+        "Saniya has a spinal condition that requires corrective surgery.",
+        details:"Saniya has been diagnosed with a spinal condition that is causing her severe pain and mobility issues. She needs corrective surgery to alleviate her symptoms and improve her quality of life. The estimated cost for Saniya's treatment is ₹4,25,000, which is a significant financial challenge for her family. With your help, Saniya can receive the necessary medical care to address her condition and regain her mobility and independence."
+    },
+    {
+      id: "vihaan",
+      image:
+        "https://picsum.photos/id/1031/600/400",
+      name: "Vihaan",
+      age: 6,
+      location: "Nagpur",
+      condition: "Liver Treatment",
+      estimatedCost: "₹3,00,000",
+      story:
+        "Vihaan requires urgent liver treatment and continuous medical care.",
+        details:"Vihaan has been diagnosed with a severe liver condition that requires urgent treatment and continuous medical care. His family has been struggling to manage the costs associated with his condition, which is estimated to be around ₹3,00,000. Vihaan's health is deteriorating rapidly, and without the necessary treatment, his prognosis is poor. Your support can help Vihaan receive the life-saving care he needs and give him a chance at a healthier future."
+    },
 ];
 
 const PatientDetail = () => {

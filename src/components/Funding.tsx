@@ -45,7 +45,7 @@ const Funding = () => {
     {
       id: "aarav",
       image:
-        "https://images.pexels.com/photos/3807497/pexels-photo-3807497.jpeg",
+        "https://picsum.photos/id/1027/600/400",
       name: "Aarav",
       age: 7,
       location: "Pune",
@@ -57,7 +57,7 @@ const Funding = () => {
     {
       id: "meera",
       image:
-        "https://images.pexels.com/photos/3825517/pexels-photo-3825517.jpeg",
+        "https://picsum.photos/id/1005/600/400",
       name: "Meera",
       age: 9,
       location: "Nashik",
@@ -69,7 +69,7 @@ const Funding = () => {
     {
       id: "rohan",
       image:
-        "https://images.pexels.com/photos/3807502/pexels-photo-3807502.jpeg",
+        "https://picsum.photos/id/1011/600/400",
       name: "Rohan",
       age: 5,
       location: "Aurangabad",
@@ -81,7 +81,7 @@ const Funding = () => {
     {
       id: "saniya",
       image:
-        "https://images.pexels.com/photos/3807507/pexels-photo-3807507.jpeg",
+        "https://picsum.photos/id/1025/600/400",
       name: "Saniya",
       age: 11,
       location: "Mumbai",
@@ -93,7 +93,7 @@ const Funding = () => {
     {
       id: "vihaan",
       image:
-        "https://images.pexels.com/photos/3807506/pexels-photo-3807506.jpeg",
+        "https://picsum.photos/id/1031/600/400",
       name: "Vihaan",
       age: 6,
       location: "Nagpur",
